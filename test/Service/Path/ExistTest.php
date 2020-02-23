@@ -1,14 +1,14 @@
 <?php
-namespace LeoGalleguillos\ArrayModuleTest\Service;
+namespace LeoGalleguillos\ArrayModuleTest\Service\Path;
 
 use LeoGalleguillos\ArrayModule\Service as ArrayModuleService;
 use PHPUnit\Framework\TestCase;
 
-class PathExistsTest extends TestCase
+class ExistTest extends TestCase
 {
     protected function setUp()
     {
-        $this->pathExistsService = new ArrayModuleService\PathExists();
+        $this->existService = new ArrayModuleService\Path\Exist();
     }
 
     public function testInitialize()
@@ -28,55 +28,55 @@ class PathExistsTest extends TestCase
         ];
 
         $this->assertTrue(
-            $this->pathExistsService->doesPathExist(
+            $this->existService->doesExist(
                 ['a'],
                 $array
             )
         );
         $this->assertFalse(
-            $this->pathExistsService->doesPathExist(
+            $this->existService->doesExist(
                 [0],
                 $array
             )
         );
         $this->assertFalse(
-            $this->pathExistsService->doesPathExist(
+            $this->existService->doesExist(
                 ['b'],
                 $array
             )
         );
         $this->assertTrue(
-            $this->pathExistsService->doesPathExist(
+            $this->existService->doesExist(
                 ['c', 'd'],
                 $array
             )
         );
         $this->assertFalse(
-            $this->pathExistsService->doesPathExist(
+            $this->existService->doesExist(
                 ['c', 0],
                 $array
             )
         );
         $this->assertTrue(
-            $this->pathExistsService->doesPathExist(
+            $this->existService->doesExist(
                 ['f', 2, 'i'],
                 $array
             )
         );
         $this->assertTrue(
-            $this->pathExistsService->doesPathExist(
+            $this->existService->doesExist(
                 ['f', '2', 'i'],
                 $array
             )
         );
         $this->assertFalse(
-            $this->pathExistsService->doesPathExist(
+            $this->existService->doesExist(
                 ['f', '2', 'j'],
                 $array
             )
         );
         $this->assertFalse(
-            $this->pathExistsService->doesPathExist(
+            $this->existService->doesExist(
                 ['f', '2', 'i', 'j'],
                 $array
             )

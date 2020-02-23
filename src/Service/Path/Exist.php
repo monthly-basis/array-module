@@ -1,9 +1,9 @@
 <?php
-namespace LeoGalleguillos\ArrayModule\Service;
+namespace LeoGalleguillos\ArrayModule\Service\Path;
 
-class PathExists
+class Exist
 {
-    public function doesPathExist(
+    public function doesExist(
         array $path,
         array $array
     ): bool {
@@ -18,7 +18,7 @@ class PathExists
                 return false;
             }
 
-            return $this->doesPathExist(
+            return $this->doesExist(
                 $path,
                 $array[$key]
             );

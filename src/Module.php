@@ -21,8 +21,8 @@ class Module
     {
         return [
             'factories' => [
-                ArrayModuleService\PathExists::class => function ($sm) {
-                    return new ArrayModuleService\PathExists();
+                ArrayModuleService\Path\Exist::class => function ($sm) {
+                    return new ArrayModuleService\Path\Exist();
                 },
             ],
         ];
