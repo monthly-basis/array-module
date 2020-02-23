@@ -24,6 +24,9 @@ class Module
                 ArrayModuleService\Path\Exist::class => function ($sm) {
                     return new ArrayModuleService\Path\Exist();
                 },
+                ArrayModuleService\Path\Value::class => function ($sm) {
+                    return new ArrayModuleService\Path\Value();
+                },
             ],
         ];
     }
