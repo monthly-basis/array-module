@@ -11,7 +11,7 @@ class ExistTest extends TestCase
         $this->existService = new ArrayModuleService\Path\Exist();
     }
 
-    public function testInitialize()
+    public function testDoesExist()
     {
         $array = [
             'a' => 1,
