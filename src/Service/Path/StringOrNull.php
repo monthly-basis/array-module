@@ -1,7 +1,7 @@
 <?php
-namespace LeoGalleguillos\ArrayModule\Service\Path;
+namespace MonthlyBasis\ArrayModule\Service\Path;
 
-use LeoGalleguillos\ArrayModule\Service as ArrayModuleService;
+use MonthlyBasis\ArrayModule\Service as ArrayModuleService;
 
 class StringOrNull
 {

@@ -1,5 +1,5 @@
 <?php
-namespace LeoGalleguillos\ArrayModule\Service\Path;
+namespace MonthlyBasis\ArrayModule\Service\Path;
 
 class Exist
 {

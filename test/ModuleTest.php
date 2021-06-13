@@ -1,7 +1,7 @@
 <?php
-namespace LeoGalleguillos\ArrayModuleTest;
+namespace MonthlyBasis\ArrayModuleTest;
 
-use LeoGalleguillos\ArrayModule\Module;
+use MonthlyBasis\ArrayModule\Module;
 use LeoGalleguillos\Test\ModuleTestCase;
 
 class ModuleTest extends ModuleTestCase

@@ -1,7 +1,7 @@
 <?php
-namespace LeoGalleguillos\ArrayModule;
+namespace MonthlyBasis\ArrayModule;
 
-use LeoGalleguillos\ArrayModule\Service as ArrayModuleService;
+use MonthlyBasis\ArrayModule\Service as ArrayModuleService;
 
 class Module
 {

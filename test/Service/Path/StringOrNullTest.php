@@ -1,7 +1,7 @@
 <?php
-namespace LeoGalleguillos\ArrayModuleTest\Service\Path;
+namespace MonthlyBasis\ArrayModuleTest\Service\Path;
 
-use LeoGalleguillos\ArrayModule\Service as ArrayModuleService;
+use MonthlyBasis\ArrayModule\Service as ArrayModuleService;
 use PHPUnit\Framework\TestCase;
 
 class StringOrNullTest extends TestCase

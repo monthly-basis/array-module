@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "465abdde300cd61dfa4560c75d7f96fb",
+    "content-hash": "9ebf4989e6c68926e7eb8fda7f7a3fee",
     "packages": [
         {
             "name": "amphp/amp",
@@ -2036,17 +2036,17 @@
             "time": "2021-02-25T21:54:58+00:00"
         },
         {
-            "name": "leo-galleguillos/test",
-            "version": "v1.0.13",
+            "name": "monthly-basis/laminas-test",
+            "version": "v1.0.12",
             "source": {
                 "type": "git",
-                "url": "https://github.com/LeoGalleguillos/Test.git",
-                "reference": "e23c90295d54a31e16136cb1753fcecf35fb8bc7"
+                "url": "https://github.com/monthly-basis/laminas-test.git",
+                "reference": "313e9bc536f6ce1e28eeecab25ea4aa11e203755"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/LeoGalleguillos/Test/zipball/e23c90295d54a31e16136cb1753fcecf35fb8bc7",
-                "reference": "e23c90295d54a31e16136cb1753fcecf35fb8bc7",
+                "url": "https://api.github.com/repos/monthly-basis/laminas-test/zipball/313e9bc536f6ce1e28eeecab25ea4aa11e203755",
+                "reference": "313e9bc536f6ce1e28eeecab25ea4aa11e203755",
                 "shasum": ""
             },
             "require": {
@@ -2065,11 +2065,10 @@
                 "MIT"
             ],
             "support": {
-                "issues": "https://github.com/LeoGalleguillos/Test/issues",
-                "source": "https://github.com/LeoGalleguillos/Test/tree/v1.0.13"
+                "issues": "https://github.com/monthly-basis/laminas-test/issues",
+                "source": "https://github.com/monthly-basis/laminas-test/tree/v1.0.12"
             },
-            "abandoned": "monthly-basis/laminas-test",
-            "time": "2021-06-11T01:18:34+00:00"
+            "time": "2020-06-06T16:07:22+00:00"
         },
         {
             "name": "myclabs/deep-copy",
