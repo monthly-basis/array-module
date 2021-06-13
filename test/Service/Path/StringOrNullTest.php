@@ -6,7 +6,7 @@ use PHPUnit\Framework\TestCase;
 
 class StringOrNullTest extends TestCase
 {
-    protected function setUp()
+    protected function setUp(): void
     {
         $this->existService = new ArrayModuleService\Path\Exist();
         $this->valueService = new ArrayModuleService\Path\Value();

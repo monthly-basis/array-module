@@ -6,7 +6,7 @@ use PHPUnit\Framework\TestCase;
 
 class ExistTest extends TestCase
 {
-    protected function setUp()
+    protected function setUp(): void
     {
         $this->existService = new ArrayModuleService\Path\Exist();
     }

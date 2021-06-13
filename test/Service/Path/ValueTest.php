@@ -6,7 +6,7 @@ use PHPUnit\Framework\TestCase;
 
 class ValueTest extends TestCase
 {
-    protected function setUp()
+    protected function setUp(): void
     {
         $this->valueService = new ArrayModuleService\Path\Value();
     }
