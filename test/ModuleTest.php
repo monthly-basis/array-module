@@ -2,7 +2,7 @@
 namespace MonthlyBasis\ArrayModuleTest;
 
 use MonthlyBasis\ArrayModule\Module;
-use LeoGalleguillos\Test\ModuleTestCase;
+use MonthlyBasis\LaminasTest\ModuleTestCase;
 
 class ModuleTest extends ModuleTestCase
 {
